@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="_imagem/favicon_io (1)/faviconBR.ico" type="image/x-icon">
+    
+    <title>LINKS</title>
+
+    <style>
+    
+        /*
+            Sempre que inserido "#",".", ":", "::" e ">"significa 
+            #   =   id no HTML é       = # no css
+            .   =   Classes no HTML é  = . no css
+            :   =   Pseudo Classes
+            ::  =   Peseudo Element
+            >   =   Clildren ou Filho
+        */
+        body{
+            background-color: rgb(86, 167, 120);
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+        
+        a{
+            
+            color: rgb(0, 110, 255);
+            text-decoration: none;
+            font-weight: bold;
+
+        }
+        a:visited{
+            
+            color: rgb(207, 54, 54);
+            
+        }
+
+        a:hover{
+            /*background-color: teal;*/
+            color: rgb(4, 0, 65);
+            text-decoration: underline;
+            
+        }
+        
+        a:active{
+            color: yellow;
+        }
+
+        a::after{
+            content: ' visto';
+            text-decoration: none;
+            font-weight: normal;
+            color: darkgray
+            ;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <h1>Personalizando links</h1>
+        <ul>
+            <li><a href="http://friobr.com.br" target="_blank" >FRIOBR</a></li>
+            <li> <a href="https://www.magazinevoce.com.br/magazinecombrisa" target="_blank">COMBRISA</a> </li>
+            <li><a href="http://www.friobr.com.br" target="_blank">LINDOMAR</a></li>
+            <li><a href="http://www.facebook.com" target="_blank">BR VIRTUAL</a></li>
+           
+        </ul>
+</body>
+</html>

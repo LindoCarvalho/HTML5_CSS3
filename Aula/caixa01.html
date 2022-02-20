@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="_imagem/favicon_io (1)/faviconBR.ico" type="image/x-icon">
+    <title>Modelo de Caixas</title>
+    
+    <style>
+        h2{/*box-level*/
+           /* 
+           para transformar em box-inlevel é usar o comando
+           "display:inline;"     
+           */
+            background-color: darkorange;
+            height: 300px;
+            width: 380px;
+            border-width: 10px;
+            border-style: solid;
+            border-color: rgb(0, 0, 0);
+           
+            padding-top: 10px;
+            padding-right: 1px;
+            padding-bottom: 1px;
+            padding-left: 1px;
+
+                margin-top: 10px;
+                margin-right:  10px;
+                margin-bottom:  10px;
+                margin-left:  10px;
+            
+                    outline: width 5px;
+                    outline-style: dotted;
+                    outline-color: teal;
+                
+        }
+
+        a{  /*inline-level*/
+           /* 
+           para transformar em box-inlevel é usar o comando
+           "display:block;"     
+           */
+            border-left-width: 8px;
+            border-style: solid;
+            border-color: deepskyblue;
+           
+                padding-top: 10px;
+                padding-right: 10px;
+                padding-bottom: 10px;
+                padding-left: 10px;
+
+                    margin: auto;
+
+                        outline-width: 2px;
+                        outline-style: solid;
+                        outline-color: violet;
+
+        }
+
+        h3{/*box-level*/
+           /* 
+           para transformar em box-inlevel é usar o comando
+           "display:inline;"     
+           */
+            background-color: darkorange;
+            height: 300px;
+            width: 380px;
+        
+                /*
+                border-width: 10px;
+                border-style: solid;
+                border-color: cor rgb (0, 0, 0);
+                */
+            border: 10px solid blue;
+
+                /*
+                padding-top: 10px;
+                padding-right: 1px;
+                padding-bottom: 1px;
+                padding-left: 1px;
+                */
+            padding: 10px auto 10px auto;
+                /* 
+                se as 4 medidas forem iguais vc pode digitar apenas uma medida
+                Se dgitar apenas duas medidas, ela se referiram 1º top e botton 2ª rigth e left */
+            
+            margin: 30px auto 30px auto;
+                /*
+                margin-top: 10px;
+                margin-right:  10px;
+                margin-bottom:  10px;
+                margin-left:  10px;
+                */
+            outline: 5px dotted teal;                    
+                /*                    
+                    outline: width 5px;
+                    outline-style: dotted;
+                    outline-color: teal;
+                */
+        }
+    </style>
+
+</head>
+<body>
+    <h1>Exemplo de caixa box-level normal</h1>
+    <h2>NOMAL</h2>
+    <p>Parágrafos tbm são box-level, mas os <a href="#">Links são exemplos inline-level</a>Vamos ver como tudo isso funciona.</p>
+
+    <h1>Exemplo de caixa box-level </h1>
+    <h3>Em shorthand</h3>
+   
+
+</body>
+</html>

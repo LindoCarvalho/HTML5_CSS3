@@ -1,0 +1,32 @@
+@charset "UTF-8";
+/*
+    Sempre que inserido "#" e "."significa 
+        #   =   id no HTML é       = # no css
+        .   =   Classes no HTML é  = . no css
+        :   =   Pseudo Classes
+        ::  =   Peseudo Element
+        >   =   Clildren ou Filho
+*/
+
+body{   
+     background-color: rgb(204, 255, 211); 
+    font-family: Arial, Helvetica, sans-serif;   
+    }
+    
+    h1{
+        color: rgb(24, 94, 55);  
+    }
+
+    h1#principal{
+        background-color: rgb(13, 37, 3);   
+        text-align: center;
+        color: white;    
+    }
+
+    h2{
+        color: coral;    
+    }
+    p{  font: normal 16px arial;
+        text-align: justify;
+    }
+        
